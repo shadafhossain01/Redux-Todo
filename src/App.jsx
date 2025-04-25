@@ -9,7 +9,7 @@ function App() {
       <h1>Todo App</h1>
       <div className="main">
       <input type="text" value={inputValue} onChange={(e)=>dispatch(setInputValue(e.target.value))}/>
-      <button onClick={()=>dispatch(addTodo())}>Add Todo</button>
+      <button onClick={()=>dispatch(addTodo())} className="addBtn">Add Todo</button>
       </div>
       <ul>
         {

@@ -5,12 +5,18 @@
 }
 
 body{
-  background-color: rgb(128, 128, 128);
+  background-color: #213D48;
   height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo-container{
+  background-color: #4f656c;
+  padding: 70px 90px;
+  border-radius: 15px;
 }
 
 .main{
@@ -25,11 +31,14 @@ h1{
 
 input{
   width: 315px;
-    height: 40px;
-    border-radius: 10px;
-    border: none;
-    padding: 10px;
-    margin-right: 10px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  background: #000;
+  color: #fff;
+  font-size: 19px;
 }
 
 input:focus{
@@ -44,10 +53,34 @@ button{
 ul li{
   list-style: none;
   font-size: 25px;
-  margin-bottom: 10px;
   border: 1px solid #5d5d5d;
-  padding: 9px 15px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
   border-radius: 15px;
   display: flex;
   justify-content: space-between;
+}
+
+ul li button{
+  color: #fff;
+  background-color: #FF1444;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.addBtn{
+  background-color: #048193;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
